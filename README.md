@@ -12,6 +12,7 @@ SYNOPSIS
     
     
 SYNTAX
+
     Get-FontName [-Path <String>] [<CommonParameters>]
     
     Get-FontName [-Item <Object[]>] [<CommonParameters>]
