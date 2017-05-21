@@ -40,6 +40,7 @@
 
     BEGIN
     {
+        Add-Type -AssemblyName System.Drawing
         $ttfFiles = @()
         $fontCollection = new-object System.Drawing.Text.PrivateFontCollection
     }
@@ -61,7 +62,7 @@
     {
         $ttfFiles | ForEach-Object {
             $fontCollection.AddFontFile($_.fullname)
-            $fontCollection.Families[0].Name
+            $fontCollection.Families[-1].Name
         }
     }
 }
