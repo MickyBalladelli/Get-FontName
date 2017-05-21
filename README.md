@@ -5,9 +5,11 @@ Retrieves the font name from TTF file without install it.
 Get-FontName
 
 NAME
+
     Get-FontName
     
 SYNOPSIS
+
     Retrieves the font name from a TTF file.
     
     
